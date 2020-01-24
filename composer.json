@@ -1,0 +1,29 @@
+{
+  "name": "daniloasantos/MVC",
+  "description": "Site para fins estudantis",
+  "minimum-stability": "alpha",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Danilo Almeida",
+      "email": "danilo8almeida@hotmail.com",
+      "role": "Developer"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "psr-4": {
+      "Source\\": "source/"
+    },
+    "files": [
+      "source/Config.php"
+    ]
+  },
+  "require": {
+    "phpmailer/phpmailer": "6.0.*",
+    "coffeecode/datalayer": "1.1.*",
+    "coffeecode/router": "1.0.*"
+  }
+}
